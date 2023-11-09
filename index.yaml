@@ -39,9 +39,9 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.5.0
-    created: "2023-11-09T10:10:01.176972-08:00"
+    created: "2023-11-09T10:15:39.933918-08:00"
     description: A Helm chart for Nutanix Database Kubernetes Operator
-    digest: fb59a9a70805f8abd095236af3aeab08adc1b63769a414f4643477e32de1576d
+    digest: 610faa620694812b4e8d514d7b626b99b6ca51a03750bba2fe591486bd5894fe
     icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
     maintainers:
     - email: mazin.shaaeldin@nutanix.com
@@ -61,6 +61,6 @@ entries:
     name: ndb-operator
     type: application
     urls:
-    - ndb-operator-0.5.1.tgz
-    version: 0.5.1
-generated: "2023-11-09T10:10:01.175435-08:00"
+    - ndb-operator-0.5.2.tgz
+    version: 0.5.2
+generated: "2023-11-09T10:15:39.932493-08:00"
