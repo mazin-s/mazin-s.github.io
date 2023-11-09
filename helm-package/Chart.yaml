@@ -1,0 +1,58 @@
+apiVersion: v2
+name: ndb-operator
+description: A Helm chart for Nutanix Database Kubernetes Operator
+type: application
+version: 0.5.1
+appVersion: v0.5.0
+maintainers:
+  - name: mazin-s
+    email: mazin.shaaeldin@nutanix.com
+  - name: akshmish
+    email: akshay.mishra@nutanix.com
+  - name: shenoypritika
+    email: pritika.shenoy@nutanix.com
+  - name: krunal-jhaveri
+    email: krunal.jhaveri@nutanix.com
+  - name: manavrajvanshi
+    email: manav.rajvanshi@nutanix.com
+  - name: yash-ntnx
+    email: yashesh.mankad@nutanix.com
+  - name: nutanix-cloud-native-bot
+    email: cloudnative@nutanix.com
+icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: "Added Clone Functionality"
+    - kind: added
+      description: "Automation Testing for Time machine"
+    - kind: added
+      description: "Automation Scaffolding for future db engine tests"
+    - kind: added
+      description: "Added Operation tracking"
+    - kind: added
+      description: "Support for Engine Specific Inputs in DB Provisioning"
+    - kind: added
+      description: "NDB and DB Integration"
+    - kind: added
+      description: "Upgrade the versions for controller-runtime & kube-rbac-proxy and Operator-sdk"
+  artifacthub.io/containsSecurityUpdates: "false"
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/maintainers: |
+    - name: Mazin Shaaeldin
+      email: mazin.shaaeldin@nutanix.com
+    - name: Akshay Mishra
+      email: akshay.mishra@nutanix.com
+    - name: Pritika Shenoy
+      email: pritika.shenoy@nutanix.com
+    - name: Krunal Jhaveri
+      email: krunal.jhaveri@nutanix.com
+    - name: Manav Rajvanshi
+      email: manav.rajvanshi@nutanix.com
+    - name: Yashesh Mankad
+      email: yashesh.mankad@nutanix.com
+    - name: Nutanix Cloud Native Team
+      email: cloudnative@nutanix.com
+  artifacthub.io/operator: "true"
+  artifacthub.io/operatorCapabilities: Basic Install
+  artifacthub.io/prerelease: "false"
